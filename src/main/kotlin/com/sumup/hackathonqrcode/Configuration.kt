@@ -17,4 +17,12 @@ data class Configuration(
         @Expose
         @Column(nullable = false) val dashUrl: String?,
         @Expose
-        @Column(nullable = false) val posUrl: String?)
+        @Column(nullable = false) val posUrl: String?,
+        @Expose
+        @Column(nullable = false) val apiGwUrl: String?,
+        @Expose
+        @Column(nullable = false) val webUrl: String?,
+        @Expose
+        @Column(nullable = false) val baseUrl: String?,
+        @Expose
+        @Column(nullable = false) val posSecure: Boolean?)
