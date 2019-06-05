@@ -11,6 +11,8 @@ data class Configuration(
         val id: Int?,
         @Column(unique = true, nullable = false) var code: String?,
         @Expose
+        @Column(nullable = false) val name: String?,
+        @Expose
         @Column(nullable = false) val cubeUrl: String?,
         @Expose
         @Column(nullable = false) val txGwUrl: String?,
