@@ -1,0 +1,11 @@
+{
+    "name": "Hackathon",
+	"cube_url": "https://triangle-theta.sam-app.ro/",
+	"tx_gw_url": "https://txg-theta.sam-app.ro/",
+	"dash_url": "https://dashboard-theta.sam-app.ro/",
+	"pos_url": "mobile-edge-theta.pos.sumup.com",
+	"pos_secure": true,
+	"api_gw_url": "https://api-theta.sam-app.ro",
+	"base_url": "https://sam-app.ro",
+	"web_url": "https://secure-theta.sam-app.ro/"
+}
